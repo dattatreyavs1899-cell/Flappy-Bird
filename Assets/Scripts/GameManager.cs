@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Pause();
+        gameOver.SetActive(false);
     }
 
     public void Pause()
